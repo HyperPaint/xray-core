@@ -1,3 +1,3 @@
-# Xray-core
+# xray-core
 
-Dockerfile for [Xray-core](https://github.com/XTLS/Xray-core)
+Dockerfile for [xray-core](https://github.com/XTLS/Xray-core)
