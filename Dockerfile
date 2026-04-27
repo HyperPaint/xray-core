@@ -2,7 +2,7 @@ FROM almalinux:10.1-20260407
 
 ARG XRAY_CORE_VERSION="null"
 
-# Xray-core
+# xray-core
 RUN dnf -y install wget unzip
 RUN cd /tmp/ && \
     wget "https://github.com/XTLS/Xray-core/releases/download/$XRAY_CORE_VERSION/Xray-linux-64.zip" && \
