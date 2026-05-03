@@ -16,4 +16,4 @@ RUN dnf -y clean all
 COPY --chown=root:root --chmod=755 ./files/ /
 
 WORKDIR "/root/"
-CMD ["/root/xray"]
+CMD ["bash", "-c", "{ sleep 10; ./main.sh; } & /root/xray;"]
